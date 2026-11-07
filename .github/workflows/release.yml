@@ -5,7 +5,7 @@ name: Release
 # 새 버전을 배포하려면 <Version> 만 올려서 main 에 푸시하면 된다. v* 태그를 푸시해도 동작한다.
 # (net48 참조 어셈블리 패키지로 빌드하므로 Windows 러너가 필요 없음)
 on:
-  push:
+  push: 
     branches: [main]
     tags: ['v*']
 
